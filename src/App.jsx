@@ -15,7 +15,7 @@ function App() {
           <Provider store={store}>
             <NavBar />
             <Routes>
-              <Route path="/" Component={Home} />
+              <Route path="/AnimeList/" Component={Home} />
               <Route path="/detail/:id" Component={DetailPage} />
             </Routes>
           </Provider>
