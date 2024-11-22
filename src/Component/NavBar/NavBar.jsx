@@ -13,7 +13,7 @@ export function NavBar() {
     <div className="hidden md:block bg-transparent border-b border-gray-200 dark:border-gray-800 text-black dark:text-white">
       <nav className="flex justify-between items-center transition-[padding] duration-300 py-6 mx-48">
         <div className="flex items-center gap-x-8 cursor-pointer">
-          <Link to="/" className="text-[1.5rem] font-bold hover:text-blue-800">
+          <Link to="/AnimeList/" className="text-[1.5rem] font-bold hover:text-blue-800">
             AnimeList
           </Link>
         </div>
